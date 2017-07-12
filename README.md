@@ -5,6 +5,10 @@ Ethash (Ethereum Proof-of-Work algorythm) Python spec code from https://github.c
 
 Runs on Python 2, fails on Python 3.
 
+Usage:
+  python ethash.py
+Right now doesn't accept command line arguments.
+
 Changes in comparison with Wiki version:
 * Added a main function to prepare all variables and launch mining
 * Added some output to 'mine' function

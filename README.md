@@ -7,6 +7,8 @@ Runs on Python 2, fails on Python 3.
 
 Usage:
   python ethash.py
+  
+  
 Right now doesn't accept command line arguments.
 
 Changes in comparison with Wiki version:

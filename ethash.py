@@ -929,7 +929,7 @@ def main():
     seedhash = get_seedhash(block)
     print("Prepare cache...")
     cache = mkcache(cache_size, seedhash)
-    print("Prepare full dataset... Could take a few hour, please be patient.")
+    print("Prepare full dataset... Could take a few hours, please be patient.")
     dataset = calc_dataset(full_size, cache)
     print("Mine a block")
     mine(full_size, dataset, header, difficulty)

@@ -921,7 +921,7 @@ def main():
     header_size = 508 + 8 * 5
 
     block = Block(1)
-    header = bytearray(header_size)
+    header = str(bytearray(header_size))
     difficulty = 0x4000
     
     cache_size = get_cache_size(block.number)
